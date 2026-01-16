@@ -28,7 +28,7 @@ const navItems = [
   { label: "Plan", path: "/plan" },
 ];
 
-const siteUrl = "https://tusitio.com";
+const siteUrl = "https://lylstartup.github.io/LL-INFO/";
 
 const masItems = [
   { label: "Avances", path: "/avances" },
