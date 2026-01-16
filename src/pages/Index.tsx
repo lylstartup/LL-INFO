@@ -18,21 +18,20 @@ const Index = () => {
           <div className="text-center max-w-4xl mx-auto">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 animate-fade-in">
-              <Sparkles size={16} className="text-primary" />
               <span className="text-primary text-sm font-medium">Proyecto en desarrollo</span>
             </div>
 
             {/* Main Title */}
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-slide-up">
-              El futuro de tus{" "}
-              <span className="gradient-text">finanzas personales</span>
+              El Ecosistema Fintech{" "}
+              <span className="gradient-text">todo en uno</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-muted-foreground text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed animate-slide-up max-w-3xl mx-auto" style={{ animationDelay: "0.1s" }}>
-              Un ecosistema fintech integral que combina educación financiera, 
-              inversión asistida por inteligencia artificial y automatización para 
-              transformar la manera en que gestionas tu dinero.
+              Un ecosistema fintech integral que combina educación financiera y 
+              personalización asistida por inteligencia artificial para 
+              redefinir por completo la forma en la que inviertes tu dinero.
             </p>
 
             {/* Vision Statement */}
@@ -43,7 +42,7 @@ const Index = () => {
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 Este proyecto representa una visión ambiciosa que estamos construyendo paso a paso. 
-                No es un producto terminado, sino un camino hacia democratizar el acceso a herramientas 
+                No es un producto terminado, sino un camino hacia masificar el acceso a herramientas 
                 financieras sofisticadas.
               </p>
             </div>
@@ -66,25 +65,6 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
-      {/* Quick Overview */}
-      <section className="py-20 border-t border-border/50">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">IA</div>
-              <p className="text-muted-foreground">Inversión asistida por inteligencia artificial</p>
-            </div>
-            <div className="text-center p-6 border-y md:border-y-0 md:border-x border-border/50">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">EDU</div>
-              <p className="text-muted-foreground">Educación financiera integrada</p>
-            </div>
-            <div className="text-center p-6">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">AUTO</div>
-              <p className="text-muted-foreground">Automatización financiera inteligente</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };

@@ -10,7 +10,7 @@ const Objetivos = () => {
       title: "Democratizar el acceso a herramientas financieras",
       description: "Las mejores herramientas de gestión financiera no deberían estar reservadas para quienes tienen alto patrimonio. Nuestro objetivo es que cualquier persona, sin importar su punto de partida económico, tenga acceso a tecnología que antes solo estaba disponible para clientes de banca privada.",
       details: [
-        "Eliminar barreras de capital mínimo para inversión",
+        "Eliminar complejidades técnicas a la hora de invertir",
         "Ofrecer educación financiera sin costo de entrada",
         "Construir herramientas que escalen sin perder personalización"
       ]
@@ -20,9 +20,9 @@ const Objetivos = () => {
       title: "Mejorar la toma de decisiones financieras",
       description: "La mayoría de las malas decisiones financieras no vienen de la irresponsabilidad, sino de la falta de información, contexto y herramientas. Queremos que cada usuario tome mejores decisiones, no porque le digamos qué hacer, sino porque entiende las implicaciones de cada opción.",
       details: [
-        "Educación integrada en cada punto de decisión",
+        "Educación integrada en la plataforma",
         "Simulaciones que muestran consecuencias a largo plazo",
-        "IA que explica su lógica, no solo sus recomendaciones"
+        "Programa de personalización que explica su lógica."
       ]
     },
     {
@@ -31,7 +31,7 @@ const Objetivos = () => {
       description: "No queremos ser una app más que resuelve un problema puntual. El objetivo es un ecosistema completo que acompañe al usuario durante toda su vida financiera, desde su primera cuenta bancaria hasta su planificación de retiro.",
       details: [
         "Arquitectura modular que crece con el usuario",
-        "Integración entre todos los aspectos financieros",
+        "Integración entre todos los aspectos de las inversiones",
         "Infraestructura preparada para millones de usuarios"
       ]
     },
@@ -41,7 +41,7 @@ const Objetivos = () => {
       description: "El éxito no se mide en métricas de engagement artificiales ni en retención por adicción. Se mide en resultados concretos: usuarios que mejoran su situación financiera, que alcanzan sus metas, que ganan autonomía sobre su dinero.",
       details: [
         "Métricas de éxito alineadas con bienestar del usuario",
-        "Modelo de negocio que no requiere usuarios dependientes",
+        "Modelo de negocio que tiene el principal foco en el crecimiento del usuario",
         "Construcción para décadas, no para una venta rápida"
       ]
     },
@@ -58,7 +58,7 @@ const Objetivos = () => {
     {
       icon: <Target size={32} />,
       title: "Establecer nuevos estándares de la industria",
-      description: "Queremos que la forma en que construimos este ecosistema -transparencia, alineación de incentivos, educación integrada- se convierta en el estándar de la industria fintech. Que otros copien estos principios nos parece un éxito.",
+      description: "Queremos que la forma en que construimos este ecosistema se convierta en el estándar de la industria fintech. Que otros copien estos principios nos parece un éxito.",
       details: [
         "Publicar aprendizajes y metodologías",
         "Impulsar regulaciones que protejan al usuario",
@@ -73,7 +73,7 @@ const Objetivos = () => {
         <PageHeader
           badge="Objetivos"
           title="¿Hacia dónde vamos?"
-          subtitle="Estos son los objetivos estratégicos que guían cada decisión del proyecto. No son metas arbitrarias: son la razón de ser del ecosistema."
+          subtitle="Estos son los objetivos estratégicos que guían cada decisión del proyecto. No son metas arbitrarias, son decisiones cuidadosamente planificadas."
         />
 
         <div className="space-y-8">
@@ -123,10 +123,9 @@ const Objetivos = () => {
               El objetivo final
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Que millones de personas tengan control real sobre sus finanzas. 
-              No control sobre una app de presupuesto, sino sobre su futuro económico. 
-              Que la pregunta "¿cómo gestiono mi dinero?" tenga una respuesta 
-              accesible, inteligente y humana.
+              Que millones de personas tengan control real sobre sus inversiones. 
+              Que la pregunta "¿cómo empiezo a invertir?" tenga una respuesta 
+              accesible, inteligente y obvia.
             </p>
           </div>
         </div>

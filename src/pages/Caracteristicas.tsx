@@ -7,34 +7,34 @@ import { Brain, Target, GraduationCap, BarChart3, Layers, Users } from "lucide-r
 const Caracteristicas = () => {
   const features = [
     {
-      icon: <Brain size={28} />,
-      title: "IA aplicada a portafolios personalizados",
-      description: "Algoritmos de inteligencia artificial que analizan tu perfil de riesgo, objetivos financieros y horizonte temporal para construir y ajustar un portafolio de inversión único para vos. La IA no reemplaza tu criterio, lo potencia con datos y análisis que serían imposibles de procesar manualmente."
-    },
-    {
-      icon: <Target size={28} />,
-      title: "Adaptación dinámica según perfil y objetivos",
-      description: "Tu situación financiera no es estática: cambia con el tiempo, los ingresos, las metas y las circunstancias de vida. El ecosistema se adapta continuamente, rebalanceando estrategias, sugiriendo ajustes y alertándote cuando tus objetivos necesitan recalibrarse."
+      icon: <BarChart3 size={28} />,
+      title: "Zona de Inversiones",
+      description: "Es el centro de todo el ecosistema, y le da acceso al usuario a todos los activos financieros que existen en el mundo (mercado tradicional, mercado crypto, renta fija, renta variable, mercado extrabursátil, entre otros.) mediante una serie de portafolios prearmados que serán recomendados en base a las respuestas de un test interactivo. El usuario tendrá también la opción de crear su propio portafolio."
     },
     {
       icon: <GraduationCap size={28} />,
-      title: "Educación financiera integrada al uso",
-      description: "No creemos en la educación financiera abstracta. Cada decisión que tomes dentro del ecosistema viene acompañada de contexto educativo: por qué es relevante, qué implica, y cómo se conecta con conceptos más amplios. Aprendés mientras gestionás tu dinero."
+      title: "Zona Educativa",
+      description: "Es el segundo segmento del ecosistema, y se enfoca en ofrecer cursos (gratuitos y de pago) y videos educativos sobre finanzas, negocios y emprendimientos productivos, a fin de obtener conocimiento de valor sobre los temas relativos al sitio. Asimismo, contará con un sistema de lecciones que avivan el aprendizaje, que tendrá una racha diaria acumulativa, que servirá para acceder a comunidades exclusivas del sector cuatro."
     },
     {
-      icon: <BarChart3 size={28} />,
-      title: "Seguimiento, métricas y feedback automático",
-      description: "Dashboards claros que muestran el progreso hacia tus metas, rendimientos históricos, distribución de activos y proyecciones. El sistema te da feedback proactivo: celebra logros, alerta sobre desviaciones y sugiere correcciones antes de que los problemas escalen."
-    },
-    {
-      icon: <Layers size={28} />,
-      title: "Integración de múltiples clases de activos",
-      description: "Acciones, bonos, fondos indexados, criptomonedas, commodities, real estate tokenizado. El ecosistema no te limita a una sola clase de activo: te permite diversificar de forma inteligente según tu perfil, con acceso simplificado a mercados que tradicionalmente requerían intermediarios costosos."
+      icon: <Target size={28} />,
+      title: "Billetera Virtual",
+      description: "Siendo la tercera zona de la plataforma, sirve para almacenar tu dinero y usarlo en todas las transacciones dentro del ecosistema, permitiéndote depositar dinero en ella desde otras fuentes, asegurando beneficios exclusivos dentro del sitio tales como ofertas en pagos y bonificaciones de la zona 2."
     },
     {
       icon: <Users size={28} />,
-      title: "Componentes sociales y comparativos",
-      description: "Comparar tu progreso con usuarios de perfiles similares (de forma anónima), participar en comunidades de inversión temáticas, y acceder a estrategias compartidas por inversores experimentados. Lo social potencia la educación y la motivación sin caer en la presión de 'seguir a la manada'."
+      title: "Zona Social",
+      description: "Como cuarta zona de la plataforma, sin costo alguno, contentendrá distintos grupos de comunidad creados por los usuarios mismos para compartir temas relacionados con las finanzas. También incluirá la posibilidad de crear 'canales de difusión' creadores de Flashes en la quinta zona. El objetivo es tener la posibilidad de compartir información importante con gente valiosa dentro del ecosistema."
+    },
+    {
+      icon: <Layers size={28} />,
+      title: "Zona de  Videos Flash",
+      description: "Esta quinta sección contendrá videos cortos (llamados 'Flashes') hechos por los usuarios mismos de la plataforma, a fin de publicar contenido vinculado a las inversiones, finanzas, a las ciencias contables, así como sus puntos de vista de ellas, entre otras cosas."
+    },
+    {
+      icon: <Brain size={28} />,
+      title: "Asistencia virtual y personalización por IA",
+      description: "La plataforma contará con una inteligencia artificial que le recomendará al usuario un portafolio de inversión prearmado de la primera zona en base a la personalidad financiera del mismo. Además, se contará con un asistente virtual que ayudará al operador a navegar por el sitio con mayor facilidad y familiarizarse con él."
     }
   ];
 
@@ -44,7 +44,7 @@ const Caracteristicas = () => {
         <PageHeader
           badge="Características"
           title="¿Qué hace único a este ecosistema?"
-          subtitle="Cada característica está diseñada para resolver problemas reales que enfrentan las personas al gestionar sus finanzas. No se trata de agregar funciones por agregarlas, sino de construir herramientas que generen valor tangible."
+          subtitle="Esta startup es un ecosistema ya que cuenta con distinguidos sectores que, juntos, se encargan de abarcar todas las áreas de las inversiones. Se denomina 'fintech' debido a la implementación de diversas tecnologías para el manejo de las finanzas personales."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -63,25 +63,6 @@ const Caracteristicas = () => {
           ))}
         </div>
 
-        {/* Additional Context */}
-        <div className="mt-20 max-w-4xl mx-auto">
-          <div className="glass rounded-2xl p-8 md:p-12 border border-primary/10">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">
-              Filosofía de diseño
-            </h2>
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                <strong className="text-foreground">Simplicidad sobre complejidad.</strong> Las finanzas personales no deberían requerir un MBA para entenderse. Cada característica está diseñada para ser intuitiva, incluso cuando los procesos subyacentes son sofisticados.
-              </p>
-              <p>
-                <strong className="text-foreground">Educación contextual.</strong> En lugar de cursos separados, la educación está tejida en cada interacción. Cuando tomás una decisión, entendés por qué es relevante.
-              </p>
-              <p>
-                <strong className="text-foreground">Autonomía progresiva.</strong> El ecosistema no busca crear dependencia. A medida que aprendés más, ganás más control sobre tus decisiones financieras.
-              </p>
-            </div>
-          </div>
-        </div>
       </Section>
     </Layout>
   );

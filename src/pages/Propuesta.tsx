@@ -10,7 +10,7 @@ const Propuesta = () => {
         <PageHeader
           badge="Propuesta de Valor"
           title="Por qué existe este proyecto"
-          subtitle="Este ecosistema nace de la observación de problemas estructurales en cómo las personas gestionan sus finanzas. No es una solución en busca de un problema: es una respuesta fundamentada a desafíos reales."
+          subtitle="Este ecosistema nace de la observación de problemas estructurales en cómo las personas gestionan sus inversiones y acceden a educación financiera. La idea es que esta plataforma resuelva estas complicaciones y muchas más. "
         />
 
         {/* Problem Section */}
@@ -28,11 +28,11 @@ const Propuesta = () => {
             {[
               {
                 title: "Fragmentación de herramientas",
-                content: "Una persona promedio necesita múltiples apps y plataformas para: hacer seguimiento de gastos, invertir, aprender sobre finanzas, planificar metas, y gestionar deudas. Esta fragmentación genera fricción, inconsistencia de datos y abandono."
+                content: "Una persona promedio necesita múltiples apps y plataformas para: hacer seguimiento de inversiones, aprender sobre finanzas, planificar metas, e interactuar con personas del mismo rubro. Esta fragmentación genera fricción, inconsistencia de datos y abandono."
               },
               {
-                title: "Educación financiera abstracta",
-                content: "La mayoría de los recursos educativos están desconectados de la acción. Leer sobre diversificación es muy diferente a implementarla cuando tenés $500 para invertir. La brecha entre teoría y práctica es enorme."
+                title: "Psicología al empezar a invertir",
+                content: "Mucha gente no se siente preparada para dar el salto de la teoría a la práctica en cuanto a invertir, lo que resulta en una preparación excesiva sin tomar acción en el asunto."
               },
               {
                 title: "Barreras de acceso a inversión",
@@ -88,16 +88,16 @@ const Propuesta = () => {
                 implication: "Aprender 'haciendo' genera retención y aplicación real, no solo conocimiento teórico."
               },
               {
-                hypothesis: "La automatización reduce el abandono",
-                implication: "Si el sistema maneja la ejecución rutinaria, los usuarios pueden mantener hábitos financieros sin esfuerzo activo constante."
+                hypothesis: "Incentivos para reducir el abandono",
+                implication: "Si una plataforma motiva al usuario a cumplir sus metas y objetivos, reducirá la posibilidad de que este abandone el sitio."
               },
               {
                 hypothesis: "La personalización genuina genera confianza",
-                implication: "Cuando las recomendaciones reflejan la situación real del usuario, no plantillas genéricas, la adopción aumenta."
+                implication: "Cuando las recomendaciones reflejan la situación real del usuario, no plantillas genéricas, se pueden satisfacer mejor sus necesidades."
               },
               {
-                hypothesis: "El componente social motiva pero puede distorsionar",
-                implication: "Comparaciones anónimas con perfiles similares son útiles; seguir estrategias de 'influencers financieros' sin contexto es peligroso."
+                hypothesis: "El componente social motiva",
+                implication: "Comparaciones anónimas con perfiles similares son útiles, al igual que las interacciones con usuarios en situaciones parecidas."
               }
             ].map((item, index) => (
               <div key={index} className="pb-6 border-b border-border/50 last:border-0 last:pb-0">
@@ -124,8 +124,8 @@ const Propuesta = () => {
           <div className="space-y-6">
             {[
               {
-                solution: "Apps de presupuesto (YNAB, Mint, etc.)",
-                limitation: "Excelentes para tracking de gastos, pero no integran inversión, educación contextual ni automatización de largo plazo. Son herramientas puntuales, no ecosistemas."
+                solution: "Apps sociales (Discord, Reddit, etc.)",
+                limitation: "Excelentes para conocer personas nuevas, pero al contar con tantos grupos, no es posible encontrar personas con conocimiento valioso en tu misma situación financiera."
               },
               {
                 solution: "Brokers online (Robinhood, eToro, etc.)",
@@ -170,7 +170,7 @@ const Propuesta = () => {
                   Integración, no fragmentación
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Un solo ecosistema que conecta tracking de gastos, inversión, educación, metas y automatización. Los datos fluyen entre módulos: tu presupuesto informa tu capacidad de inversión, tus inversiones se conectan con tus metas, tu progreso genera contenido educativo relevante.
+                  Un solo ecosistema que conecta inversón personalizada, educación financiera e interacción social valiosa, todo en un mismo sitio, comparando con la situación actual, donde se necesita una cantidad considerable de aplicaciones para llevar a cabo las funciones mencionadas.
                 </p>
               </div>
 
@@ -179,7 +179,7 @@ const Propuesta = () => {
                   Educación en contexto
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  No hay sección separada de "cursos". La educación aparece cuando es relevante: al tomar una decisión de inversión, al analizar un gasto recurrente, al proyectar una meta. Micro-lecciones integradas que no requieren tiempo extra.
+                  Los cursos están integrados en el ecosistema. Se ofrecerá educación e incentivos mediante micro-lecciones integradas que no requieren tiempo extra, de forma tal que pueda ponerse en práctica lo aprendido a la vez que se incorpora más conocimiento.
                 </p>
               </div>
 
@@ -188,7 +188,7 @@ const Propuesta = () => {
                   IA como amplificador, no reemplazo
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  La inteligencia artificial analiza, sugiere y automatiza, pero el usuario mantiene control y visibilidad. No es una caja negra: cada recomendación viene con explicación de su lógica. El objetivo es que el usuario se vuelva más capaz, no más dependiente.
+                  La inteligencia artificial analiza tu contexto financiero, sugiere portafolios y cursos, así como te ayuda a navegar por el sitio, aunque el usuario mantiene control y visibilidad. 
                 </p>
               </div>
 
@@ -197,7 +197,7 @@ const Propuesta = () => {
                   Personalización genuina
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Más allá de "conservador/moderado/agresivo". El sistema considera: deudas actuales, estructura de ingresos, metas múltiples con diferentes horizontes, tolerancia al riesgo situacional, y circunstancias de vida únicas. Cada usuario tiene un camino único.
+                  Más allá de "conservador/moderado/agresivo". El sistema considera todo tu contexto financiero para asegurar una experiencia integral en materia de inversiones, donde cada usuario tiene un camino único.
                 </p>
               </div>
 
