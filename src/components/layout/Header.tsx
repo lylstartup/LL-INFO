@@ -28,7 +28,7 @@ const navItems = [
   { label: "Plan", path: "/plan" },
 ];
 
-const siteUrl = "https://lylstartup.github.io/LL-INFO/";
+const siteUrl = "https://ll-info.vercel.app/";
 
 const masItems = [
   { label: "Avances", path: "/avances" },
