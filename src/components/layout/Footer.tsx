@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
             <p className="text-muted-foreground text-sm max-w-md leading-relaxed">
               Ecosistema fintech en desarrollo. Construyendo el futuro de las inversiones 
-              con tecnología, educación e inteligencia artificial.
+              con tecnología, educación e inteligencia financiera.
             </p>
           </div>
 
